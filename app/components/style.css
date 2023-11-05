@@ -1,0 +1,159 @@
+.custom {
+    /* width: 5%;
+    color: blue; 
+    background-color: blue; */
+    font-size: 90%;
+    border: none;
+    text-shadow: 2px;
+}
+
+
+.nabbar {
+    height: 60px;
+}
+
+.sidebar {
+    width: 50%;
+    /* background-color: aqua; */
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+.text-primary {
+    width: 200px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 5px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 5px;
+    transition: all 0.5s;
+}
+
+.text-primary:hover {
+    box-shadow: 0px 1px 2px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 77%;
+    margin: auto;
+    height: 100%;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 20rem;
+    margin-top: 1.7rem;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.desc {
+    font-size: 0.8rem;
+}
+
+.add {
+    width: 120px;
+}
+
+
+.name {
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    margin-left: 5rem;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 20rem;
+}
+
+.normal {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+/* Add this CSS to your stylesheet */
+.carousel-indicators {
+    list-style: none;
+    /* Remove default list-style (usually bullets) */
+    display: flex;
+    /* Make the indicators display in a row */
+    justify-content: center;
+    /* Center the indicators horizontally */
+    background-color: rgb(172, 175, 179) !important;
+    background: transparent;
+    width: 125px;
+    border-radius: 30px;
+    margin-left: 150px;
+    position: relative;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    /* Adjust the width of each indicator dot */
+    height: 10px;
+    /* Adjust the height of each indicator dot */
+    margin: 0 5px;
+    /* Add some spacing between dots */
+    background-color: #007bff;
+    /* Change the background color of the active dot */
+    border: 1px solid #007bff;
+    /* Add a border to the active dot */
+    border-radius: 50%;
+    /* Make the dots round */
+    cursor: pointer;
+    /* Change the cursor style to indicate interactivity */
+}
+
+.carousel-indicators .active {
+    background-color: #fff;
+    /* Change the background color of the active dot */
+}
+
+
+/* THIS IS INTRO */
+
+.intro {
+    margin: auto;
+    height: 100%;
+    background-color: #3498db;
+    /* background: linear-gradient(blue, black); */
+    /* background-image: url("/background12.png");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-position: center center;
+}
+
+.inner-container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.lefts {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: system-ui,' -apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(0, 0, 0);
+    width: 20rem;
+    margin-top: 5rem;
+}
