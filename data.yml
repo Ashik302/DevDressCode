@@ -1,0 +1,29 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        run: |
+          git config --global user.name "${{ secrets.GITHUB_ACTOR }}"
+          git config --global user.email "${{ secrets.GITHUB_ACTOR }}@users.noreply.github.com"
+          git branch -D gh-pages
+          git checkout -b gh-pages
+          git add -f .next
+          git commit -m "Deploy to GitHub Pages"
+          git push -f origin gh-pages
