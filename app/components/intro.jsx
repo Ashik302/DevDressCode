@@ -37,19 +37,19 @@ const Intro = () => {
         <div className="image">
           <Carousel slide={false} controls={false}>
             <Carousel.Item>
-              <Image src="/hodi2.png" height={200} width={200} alt=''/>
+              <Image src="./hodi2.png" height={200} width={200} alt=''/>
             </Carousel.Item>
             <Carousel.Item>
-              <Image src="/hodi7.png" height={200} width={200} alt=''/>
+              <Image src="./hodi7.png" height={200} width={200} alt=''/>
             </Carousel.Item>
             <Carousel.Item>
-              <Image src="/hodi9.png" height={200} width={200} alt=''/>
+              <Image src="./hodi9.png" height={200} width={200} alt=''/>
             </Carousel.Item>
             <Carousel.Item>
-              <Image src="/swet.png" height={200} width={200} alt=''/>
+              <Image src="./swet.png" height={200} width={200} alt=''/>
             </Carousel.Item>
             <Carousel.Item>
-              <Image src="/swet9.png" height={200} width={200} alt=''/>
+              <Image src="./swet9.png" height={200} width={200} alt=''/>
             </Carousel.Item>
           </Carousel>
         </div>

@@ -30,7 +30,7 @@ const Trouser = ({ data }) => {
               <div className='imageContainer'>
                   <div className="main-image">
                     <Image
-                      src={`/${main}`}
+                      src={`./${main}`}
                       alt='image '
                       height={250}
                       width={250}
@@ -39,7 +39,7 @@ const Trouser = ({ data }) => {
                   <div className='normal'>
                   {color.images.map((image, index) => (
                       <Image
-                        src={`/${image}`}
+                        src={`./${image}`}
                         key={index} 
                         alt={`${color.name} Image`}
                         width={90}

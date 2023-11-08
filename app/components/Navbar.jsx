@@ -14,7 +14,7 @@ const Navbars = () => {
                     <Container fluid>
                         <Navbar.Brand href="/">
                             <Image 
-                            src="/DDC.png"
+                            src="./DDC.png"
                             width={200}
                             height={150}
                             />
